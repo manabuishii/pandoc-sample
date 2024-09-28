@@ -1,0 +1,32 @@
+listings: true
+# 章節の番号を自動でつける
+number-sections: true
+# 目次自動生成
+table-of-contents: true
+variables:
+  # heading 4 以降も番号をふる
+  secnumdepth: 9
+  # これがないと、heading4以降で、見出しの行に、先頭行がつながる
+  block-headings: true
+  # リンクの色
+  linkcolor: blue
+  # テーブルで行ごとに色を変える
+  table-use-row-colors: true
+  # タイトルページあり
+  titlepage: true
+  # 目次が独自ページ
+  toc-own-page: true
+  # 目次のキャプション
+  toc-title: 目次
+
+  # フォント
+  luatexjapresetoptions: ipaex
+
+  #figureTitle: 図
+  #tableTitle: 表
+  #listingTitle: コード
+  #figPrefix: 図
+  #eqnPrefix: 式
+  #tblPrefix: 表
+  #lstPrefix: コード
+

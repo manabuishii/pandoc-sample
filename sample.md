@@ -101,4 +101,18 @@ sys.exit()
 
 別のページにある[@lst:just_text_block]へ飛ぶことができる。
 
+# グラフ
+
+plantumlが使える。mermaidは未対応と考えいる。
+
+```plantuml
+@startuml
+A -> B : AからBへ
+B -> C : BからCへ
+C --> A : 問題があるときはCからAへ
+C -> D : CからDで終了
+
+@enduml
+```
+
 以上

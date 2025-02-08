@@ -5,6 +5,7 @@
 
 ## title に改行をいれる
 
+```
 ---
 title: |
   | タイトル1行目
@@ -14,3 +15,4 @@ date: "YYYY-mm-dd"
 subtitle: Version 1.0.0
 keywords: [workflow,document]
 ---
+```
